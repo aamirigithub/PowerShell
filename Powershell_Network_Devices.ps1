@@ -8,10 +8,10 @@
 # Get Token
 ###########################
 
-# $array = "kc2podfx-nble-admin.cerner.net"
-$array = "10.145.16.33"
-$username = "svcNmbDiscoLocal"
-$password = "ADDMPod2013!!"
+# $array = "server01.company.net"
+$array = "192.168.16.33"
+$username = "svcAcc"
+$password = "ADDMPrd01"
 
 $data = @{
     username = $username
@@ -40,9 +40,9 @@ $token
 ###########################
 # Get Token
 ###########################
-$array = "kc2podfx-nble-admin.cerner.net"
-$username = "svcNmbDiscoLocal"
-$password = "ADDMPod2013!!" 
+$array = "server01.company.net"
+$username = "svcAcc"
+$password = "ADDMPrd!!" 
 
 $data = @{
     username = $username
