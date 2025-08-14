@@ -280,6 +280,9 @@ dsmove /? 					# help for moving objects.
 dsquery /? 					# help for finding objects matching search criteria.
 dsrm /? 					# help for deleting objects.
 
+# To find all users with names
+dsquery user -name *
+dsquery ou -name *
 
 # To find all users with names starting with "mukhtar"
 dsquery user -name mukhtar*
@@ -706,4 +709,5 @@ WMIC           # Displays WMI information inside interactive command shell.
 }
 
 quser
+
 Install-Module -Name VMware.PowerCLI
