@@ -19,6 +19,10 @@
 .EXAMPLE
     .\Get-SystemUpdateHistory.ps1 -ExportCSV "C:\Reports\UpdateHistory.csv"
     Exports update history to a CSV file.
+
+.EXAMPLE
+    Invoke-Command -ComputerName Server01 -FilePath .\Get-SystemUpdateHistory.ps1 -ArgumentList "C:\Reports\Server01_Updates.csv"
+    Run remotely
 #>
 
 param (
