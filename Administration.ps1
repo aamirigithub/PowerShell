@@ -376,11 +376,10 @@ Get-ScheduledTask
 
 ---
 
-If you want, I can also create:
 
 1. **Top 150 PowerShell commands every Windows System Engineer must know**
 2. **PowerShell automation scripts for daily server administration**
 3. **PowerShell commands cheat sheet for your book (very useful appendix)**
 4. **50 real-world PowerShell scenarios for Windows Server administrators**
 
-These would fit very well in the **Windows Command Line / PowerShell book you are planning.**
+
